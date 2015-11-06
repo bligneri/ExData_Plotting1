@@ -5,7 +5,7 @@ library(dplyr)
 # set the locale in english in order to have English day name
 Sys.setlocale("LC_TIME", "C")
 
-if (F){
+if (T){
 test<-read.csv("household_power_consumption.txt",sep=";",na.strings=c("?"))
 
 # Convert as date
