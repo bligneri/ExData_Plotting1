@@ -2,7 +2,7 @@
 library(dplyr)
 # Name of the file : "household_power_consumption.txt"
 
-if (F){
+if (T){
 test<-read.csv("household_power_consumption.txt",sep=";",na.strings=c("?"))
 
 # Convert as date
